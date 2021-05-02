@@ -1,0 +1,120 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title>Photo Gallery</title>
+ 	<script src="main.js"></script>
+ 	<link rel="stylesheet" href="style.css">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ </head>
+
+ <body>
+ 	<div class="container">
+ 		<section id="grid_gallery">
+ 			<h1>Grid Gallery</h1>
+ 			<div class="line"></div>
+ 			<div>
+ 				<iframe style="border: 0px;" src="Captain%20America.png"></iframe>
+ 				<iframe style="border: 0px;" src="Hulk.png"></iframe>
+ 				<iframe style="border: 0px;" src="Iron%20Man.png"></iframe>
+ 			</div>
+ 			<div>
+ 				<iframe style="border: 0px;" src="Thor.png"></iframe>
+ 				<iframe style="border: 0px;" src="Thaons.png"></iframe>
+ 				<iframe style="border: 0px;" src="Gamora.png"></iframe>
+ 			</div>
+ 		</section>
+ 		<section id="sliding_gallery">
+ 			<div class="container">
+ 				<h1>Sliding Gallery</h1>
+ 				<div class="line"></div>
+ 				<div>
+ 					<div id="myCarousel" class="carousel slide">
+ 						<div class="carousel-inner">
+ 							<div class="item active">
+ 								<center>
+ 									<a href="Captain%20america.jpg" target="_blank">
+ 										<img src="Captain%20America.png" class="img-responsive">
+ 									</a>
+ 									<div class="carousel-content">
+ 										<p>Captain America</p>
+ 									</div>
+ 								</center>
+ 							</div>
+ 							<div class="item">
+ 								<center>
+ 									<a href="Hulk.jpg" target="_blank">
+ 										<img src="Hulk.png" class="img-responsive">
+ 									</a>
+ 									<div class="carousel-content">
+ 										<p>Hulk</p>
+ 									</div>
+ 								</center>
+ 							</div>
+ 							<div class="item">
+ 								<center>
+ 									<a href="Iron%20Man.jpg" target="_blank">
+ 										<img src="Iron%20Man.png" class="img-responsive">
+ 									</a>
+ 									<div class="carousel-content">
+ 										<p>Iron Man</p>
+ 									</div>
+ 								</center>
+ 							</div>
+ 							<div class="item">
+ 								<center>
+ 									<a href="Thanos.jpg" target="_blank">
+ 										<img src="Thaons.png" class="img-responsive">
+ 									</a>
+ 									<div class="carousel-content">
+ 										<p>Thanos</p>
+ 									</div>
+ 								</center>
+ 							</div>
+ 							<div class="item">
+ 								<center>
+ 									<a href="Thor.jpg" target="_blank">
+ 										<img src="Thor.png" class="img-responsive">
+ 									</a>
+ 									<div class="carousel-content">
+ 										<p>Thor</p>
+ 									</div>
+ 								</center>
+ 							</div>
+ 							<div class="item">
+ 								<center>
+ 									<a href="Gamora.jpg" target="_blank">
+ 										<img src="Gamora.png" class="img-responsive">
+ 									</a>
+ 									<div class="carousel-content">
+ 										<p>Gamora</p>
+ 									</div>
+ 								</center>
+ 							</div>
+ 						</div>
+ 						<ol class="carousel-indicators">
+ 							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+ 							<li data-target="#myCarousel" data-slide-to="1"></li>
+ 							<li data-target="#myCarousel" data-slide-to="2"></li>
+ 							<li data-target="#myCarousel" data-slide-to="3"></li>
+ 							<li data-target="#myCarousel" data-slide-to="4"></li>
+ 							<li data-target="#myCarousel" data-slide-to="5"></li>
+ 						</ol>
+ 						<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+ 							<span class="glyphicon glyphicon-chevron-left"></span>
+ 						</a>
+ 						<a class="right carousel-control" href="#myCarousel" data-slide="next">
+ 							<span class="glyphicon glyphicon-chevron-right"></span>
+ 						</a>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</section>
+ 	</div>
+ </body>
+
+ </html>
